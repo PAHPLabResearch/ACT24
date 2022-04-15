@@ -1,0 +1,11 @@
+Package: ACT24
+Type: Package
+Title: R Interface for the Activities Completed over Time in 24 Hours Instrument
+Version: 0.1.0
+Author: PAHP Lab
+Maintainer: PAHP Lab <PAHPLabResearch@iastate.edu>
+Description: Provides functions for processing ACT24 data in event and
+    minute-by-minute format, with additional steps to deidentify the input.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
