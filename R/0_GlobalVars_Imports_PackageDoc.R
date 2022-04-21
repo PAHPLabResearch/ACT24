@@ -1,7 +1,9 @@
 # Global Variables --------------------------------------------------------
 
 if(getRversion() >= "2.15.1") utils::globalVariables(c(
-  ".", "METs", "Primary_Activity", "Primary_Index", "student", "target_freq"
+  ".", "RecallDate", "ReportingDate", "ActivityStartTime",
+  "ActivityEndTime", "METs", "Primary_Activity", "Primary_Index",
+  "student", "target_freq"
 ))
 
 .act24_drop_names <- c(
@@ -28,7 +30,7 @@ if(getRversion() >= "2.15.1") utils::globalVariables(c(
 
 .dummy_tracker <- data.frame(
   id = "ID",
-  act_id = "ACT_ID"
+  act24_id = "ACT24_ID"
 )
 
 # Imports -----------------------------------------------------------------

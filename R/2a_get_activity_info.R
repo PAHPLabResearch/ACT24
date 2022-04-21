@@ -93,7 +93,7 @@ update_info <- function(new_matches, info, verbose) {
 
   if (verbose) {
     (initial_missing - length(info$incomplete)) %>%
-      message("\nSuccessfully labeled ", ., " additional minutes of data")
+      message("\nSuccessfully labeled ", ., " additional minute(s) of data")
   }
 
   info

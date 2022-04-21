@@ -37,7 +37,7 @@ preliminary_labels <- function(info, mxm, verbose) {
       .[[1]]$Primary_Activity != "Multitasking",
       na.rm = TRUE
     ),
-    " minutes of data"
+    " minute(s) of data"
   )}
 
 }

@@ -1,1 +1,5 @@
 DetailedReport.csv
+interactive_testing.R
+*.rds
+*.csv
+*.RData
